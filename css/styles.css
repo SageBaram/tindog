@@ -34,7 +34,7 @@ h3 {
 }
 
 #title .navbar {
-  padding-bottom: 4.5rem;
+  padding-bottom: 1.5rem;
 }
 
 #title .navbar-brand {
@@ -73,7 +73,6 @@ h3 {
 }
 
 /* Features */
-margin: 0;
 
 #features {
   background-color: #ffffff;
@@ -199,6 +198,14 @@ margin: 0;
   #title {
     text-align: center;
     margin: 0 auto;
+  }
+
+  #title h1 {
+    font-size: 2rem;
+  }
+
+  #title .download-button {
+    font-size: 0.9rem;
   }
 
   #cta h1 {
