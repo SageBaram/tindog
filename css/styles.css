@@ -73,6 +73,7 @@ h3 {
 }
 
 /* Features */
+margin: 0;
 
 #features {
   background-color: #ffffff;
@@ -202,5 +203,10 @@ h3 {
 
   #cta h1 {
     max-width: 75%;
+  }
+
+  #press .press-logo {
+    width: 25%;
+    margin: 20px 20px 50px;
   }
 }
