@@ -57,14 +57,16 @@ h3 {
 }
 
 #title .title-image {
+  width: 15%;
   min-width: 15rem;
   max-width: 20rem;
   transform: rotate(25deg);
   position: absolute;
+  top: 50px;
+  right: 35%;
 }
 
-.download-button {
-  font-size: 1rem;
+#title .download-button {
   font-weight: 400;
   text-align: center;
   margin: 5% 3% 5% 0;
@@ -162,7 +164,7 @@ h3 {
   padding-top: 6.25rem;
 }
 
-#cta button {
+#cta .download-button {
   margin: 3% 0.625em;
 }
 
@@ -186,27 +188,23 @@ h3 {
   color: #ff4c68;
 }
 
-@media only screen and (max-width: 1028px) {
-  #title {
-    text-align: center;
-  }
-
+@media only screen and (max-width: 1600px) {
   #title .title-image {
     position: static;
     transform: rotate(0);
   }
-
-  #title h1 {
-    font-size: 3rem;
+}
+@media only screen and (max-width: 1028px) {
+  #title {
+    text-align: center;
+    margin: 0 auto;
   }
 
   #cta h1 {
-    font-size: 2.5rem;
-    max-width: 100%;
-    padding-top: 2rem;
+    max-width: 75%;
   }
-
-  .download-button {
-    font-size: 0.9rem;
-  }
+  /* #title .title-image { */
+  /*   position: static; */
+  /*   transform: rotate(0); */
+  /* } */
 }
