@@ -2,13 +2,6 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-h1 {
-  font-family: "Montserrat-Black", sans-serif;
-  font-size: 15rem;
-  font-weight: 900;
-  line-height: 1.5;
-}
-
 h2 {
   font-family: "Montserrat-Bold", sans-serif;
   font-size: 3rem;
@@ -27,6 +20,13 @@ h3 {
 #title {
   background-color: #ff4c68;
   color: #ffffff;
+}
+
+#title h1 {
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
 }
 
 #title .container-fluid {
@@ -67,7 +67,6 @@ h3 {
 }
 
 #title .download-button {
-  font-weight: 400;
   text-align: center;
   margin: 5% 3% 5% 0;
 }
@@ -95,8 +94,6 @@ h3 {
 #features .feature-icon:hover {
   color: #ff4c68;
 }
-
-/* .feature-box h3 { */
 
 #features .feature-box p {
   padding: 5%;
@@ -159,13 +156,15 @@ h3 {
 }
 
 #cta h1 {
-  margin: 0 auto;
-  max-width: 35%;
-  padding-top: 6.25rem;
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  padding-top: 3% 6.25rem;
 }
 
 #cta .download-button {
-  margin: 3% 0.625em;
+  margin: 2% 0.625em;
 }
 
 /* Footer */
@@ -205,15 +204,13 @@ h3 {
     font-weight: 700;
   }
 
-  #title .download-button {
-    font-size: 0.9rem;
+  .download-button {
+    font-size: 1rem;
   }
 
   #cta h1 {
     font-size: 2.5rem;
-    font-weight: 700;
-    max-width: 100%;
-    padding: 10%;
+    padding-top: 3% 6.25rem;
   }
 
   #press .press-logo {
