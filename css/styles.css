@@ -4,7 +4,7 @@ body {
 
 h1 {
   font-family: "Montserrat-Black", sans-serif;
-  font-size: 3.5rem;
+  font-size: 15rem;
   font-weight: 900;
   line-height: 1.5;
 }
@@ -201,7 +201,8 @@ h3 {
   }
 
   #title h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-weight: 700;
   }
 
   #title .download-button {
@@ -209,7 +210,10 @@ h3 {
   }
 
   #cta h1 {
-    max-width: 75%;
+    font-size: 2.5rem;
+    font-weight: 700;
+    max-width: 100%;
+    padding: 10%;
   }
 
   #press .press-logo {
