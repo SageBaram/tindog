@@ -35,6 +35,10 @@ h6 {
 .white-background {
   background-color: #ffffff;
 }
+
+.download-button {
+  font-weight: bold;
+}
 /* Title */
 
 #title {
@@ -122,7 +126,7 @@ h6 {
   margin: 20px;
 }
 
-.testimonial-text {
+#testimonials .testimonial-text {
   font-size: 3rem;
   line-height: 1.5;
 }
@@ -198,7 +202,8 @@ h6 {
   }
 
   .download-button {
-    font-size: 1rem;
+    font-size: 0.9rem;
+    font-weight: bold;
   }
 
   #cta h1 {
@@ -210,5 +215,16 @@ h6 {
   #press .press-logo {
     width: 25%;
     margin: 20px 20px 50px;
+  }
+
+  #testimonials .testimonial-image {
+    width: 30%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+
+  #testimonials .testimonial-text {
+    font-size: 2rem;
+    line-height: 1.5;
   }
 }
